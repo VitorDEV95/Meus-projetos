@@ -9,7 +9,7 @@ var imc = weight / height**2
 var text=""
 
 if(imc < 18.5) {
-text = "Você ta magro"
+text = "Você está magro"
 
 } else if(imc < 24.9){
 text = "Você está normal"
