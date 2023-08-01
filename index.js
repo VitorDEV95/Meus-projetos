@@ -1,12 +1,12 @@
 function calculate() {
-var height = (document.getElementById("height").value)
-var weight = document.getElementById("weight").value
+let height = (document.getElementById("height").value)
+let weight = document.getElementById("weight").value
 console.log(height)
 console.log(weight)
 
-var imc = weight / height**2
+let imc = weight / height **2
 
-var text=""
+let text=""
 
 if(imc < 18.5) {
 text = "Você está magro"
